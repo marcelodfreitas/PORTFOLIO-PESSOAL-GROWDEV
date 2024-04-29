@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  width: 400px;
+  height: 100vh;
+  background-color: #2fff00;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.column2 {
+  display: row;
+  float: right;
+}
+
+.column a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+
+}
+
+.column img {
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid #222222;
+
+}
+
+button {
+  border-radius: 10px;
+  gap: 30px;
+  margin: 5px;
+  padding: 0 50px;
+  background: #222222;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  color: #2fff00;
+}
+
+.content {
+  width: 100%;
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 30px;
+  color: #222222;
+
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.instagram:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.github:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
